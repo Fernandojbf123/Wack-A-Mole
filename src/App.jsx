@@ -31,9 +31,6 @@ function App() {
   const boing = document.getElementById("boing");
   const bgmusic = document.getElementById("bgmusic")
 
-  console.log(bgmusic)
-
-
   useEffect(() => {
     let number = new Array(12).fill(1);
     setHolesNumber(number)   
@@ -223,8 +220,8 @@ function App() {
             
           ))}
         </div>
-        <audio id="boing" src="../public/boing.mp3" ></audio>
-        <audio id="bgmusic" src="../public/bgmusic.mp3"></audio>
+        <audio id="boing" src="./boing.mp3" ></audio>
+        <audio id="bgmusic" src="./bgmusic.mp3"></audio>
 
 
       </section>
